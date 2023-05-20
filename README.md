@@ -23,7 +23,7 @@ Fine-tuning of [DistilBERT](https://arxiv.org/pdf/1910.01108.pdf) on the [20 New
 
 ### Results 💯:
 
-A fine-tuned classifier on the [Hugging Face Model Hub](https://huggingface.co/PanoEvJ/Bert-Classifier-News-Articles)!
+A fine-tuned classifier on the Hugging Face Model Hub. Check it out [here](https://huggingface.co/PanoEvJ/Bert-Classifier-News-Articles)!
 
 ### Example:
 
