@@ -3,20 +3,28 @@
      height="auto"/>
 </p>
 
-# <h1 align="center" id="heading">:wave: Welcome to the Building With Large Language Models Workshop!</h1>
+# <h1 align="center" id="heading">Fine-tuning a Simple Classifier with TensorFlow!</h1>
 
-## ☑️ Objectives
-By the end of this course you will: 
-- [ ] Learn the essentials of prompting and fine-tuning 
-- [ ] Fine-tune the structure of open-source LLMs using a data-centric approach
-- [ ] Create a ChatGPT-like interface for your own data using indexing and chaining
-- [ ] Build and deploy three different Generative AI applications
+This week we'll be fine-tuning [DistilBERT](https://arxiv.org/pdf/1910.01108.pdf) on the [20 Newsgroups](http://qwone.com/~jason/20Newsgroups/) dataset.
 
-## 🏗️ Project-Based Learning
-In this workshop, you will deploy three applications in three weeks, including your own unique LLM capstone project in Week 3. You’ll leverage the most powerful LLMs to build and deploy personalized applications in your domain and for your use cases. You’ll also fine-tune LLMs to improve classic ML algorithm performance, teach LLMs new structure, and build a question-answering tool for your documents. 
+### Objectives 🔍
 
-## 🧪 Technical Requirements and Prerequisites
-This workshop is intended for software engineers, data scientists, ML engineers, or others who have strong Python skills and have working experience deploying applications. Before the workshop, you should: 
-- [ ] Create an account on Hugging Face and be familiar with Hugging Face Datasets, Models, and Spaces. We recommend checking out our [Zero to Deployment Adventure Guide](https://docs.google.com/presentation/d/1rmIxwbNLiUcb_4pDDdlCQ5RvfP4-LcnrHeEey_MQDAg/edit?usp=sharing) from our recent Building Generative AI Applications Workshop, and checking out the [Hugging Face Course](https://huggingface.co/learn/nlp-course/chapter1/1) for more information.
-- [ ] Create a [Google Colab Pro account](https://colab.research.google.com/), which is what we will be using for demos during the workshop. 
+- [ ] Data Preparation
+- [ ] Fine-tuning A Model for Text Classification With Hugging Face's Transformers 🤗 
 
+### Notebook 📓
+
+We'll be working out of this notebook for this assignment: [Building a Simple Classifier](https://colab.research.google.com/drive/15aT-Z6pitXZbMhw7DG_j9Lx4l9TtE5nt?usp=sharing)
+
+### PreReqs ⚠️:
+
+- You'll want to ensure you're in a GPU runtime in Colab - please follow this guide if you're unsure how to do so: [Making the Most of Your Colab Subscription](https://colab.research.google.com/notebooks/pro.ipynb)
+- You'll also want to make sure you've set-up a Hugging Face account, and have generate a "WRITE" access token. 
+
+### Results 💯:
+
+At the end of this assignment, you should have a fine-tuned classifier on the Hugging Face Model Hub!
+
+### Example:
+
+[Here](https://huggingface.co/FourthBrainGenAI/distilbert_classifier_newsgroups) is an example of a completed assignment.
