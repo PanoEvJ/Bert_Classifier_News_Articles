@@ -5,7 +5,7 @@
 
 # <h1 align="center" id="heading">Fine-tuning a Simple Classifier with TensorFlow!</h1>
 
-This week we'll be fine-tuning [DistilBERT](https://arxiv.org/pdf/1910.01108.pdf) on the [20 Newsgroups](http://qwone.com/~jason/20Newsgroups/) dataset.
+Fine-tuning of [DistilBERT](https://arxiv.org/pdf/1910.01108.pdf) on the [20 Newsgroups](http://qwone.com/~jason/20Newsgroups/) dataset.
 
 ### Objectives 🔍
 
@@ -14,16 +14,16 @@ This week we'll be fine-tuning [DistilBERT](https://arxiv.org/pdf/1910.01108.pdf
 
 ### Notebook 📓
 
-We'll be working out of this notebook for this assignment: [Building a Simple Classifier](https://colab.research.google.com/drive/15aT-Z6pitXZbMhw7DG_j9Lx4l9TtE5nt?usp=sharing)
+[Building a Simple Classifier](https://colab.research.google.com/drive/15aT-Z6pitXZbMhw7DG_j9Lx4l9TtE5nt?usp=sharing)
 
 ### PreReqs ⚠️:
 
-- You'll want to ensure you're in a GPU runtime in Colab - please follow this guide if you're unsure how to do so: [Making the Most of Your Colab Subscription](https://colab.research.google.com/notebooks/pro.ipynb)
-- You'll also want to make sure you've set-up a Hugging Face account, and have generate a "WRITE" access token. 
+- Ensure you're in a GPU runtime in Colab - please follow this guide if you're unsure how to do so: [Making the Most of Your Colab Subscription](https://colab.research.google.com/notebooks/pro.ipynb)
+- Make sure you've set-up a Hugging Face account, and have generate a "WRITE" access token. 
 
 ### Results 💯:
 
-At the end of this assignment, you should have a fine-tuned classifier on the Hugging Face Model Hub!
+A fine-tuned classifier on the Hugging Face Model Hub!
 
 ### Example:
 
